@@ -58,7 +58,9 @@ Dashboards are provided as images in the repository. They include:
 - Price distribution by brand and year
 - Mileage trends and condition breakdown
 - KPI cards for average price, mileage, and car age
-<img src="https://image2url.com/images/1755687080391-fb555241-253c-4f23-84e4-fed6175f39b7.png" alt="Dashboard Preview" width="600"/>
+
+  <img src="https://image2url.com/images/1755687080391-fb555241-253c-4f23-84e4-fed6175f39b7.png" alt="Dashboard Preview" width="600"/>
+  
 ---
 
 ## 🚀 How to Run
