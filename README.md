@@ -74,8 +74,4 @@ Dashboards are provided as images in the repository. They include:
 
 ---
 
-## 📬 Contact
-
-Created by **Anesh**  
-Feel free to connect or reach out for collaboration!
 
