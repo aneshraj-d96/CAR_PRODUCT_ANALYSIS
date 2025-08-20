@@ -1,13 +1,27 @@
-# app.py
-
 import streamlit as st
 import pandas as pd
 import joblib
+import requests
+import os
+
+# URLs for model files
+base_url = "https://github.com/aneshraj-data-96/CAR_PRODUCT_ANALYSIS/releases/download/v1.0/"
+files = {
+    "model": "car_price_model.pkl",
+    "label_encoders": "label_encoders.pkl",
+    "feature_names": "feature_names.pkl"
+}
+
+# Download files if not present
+for name, filename in files.items():
+    if not os.path.exists(filename):
+        with open(filename, "wb") as f:
+            f.write(requests.get(base_url + filename).content)
 
 # Load model and encoders
-model = joblib.load('https://github.com/aneshraj-data-96/CAR_PRODUCT_ANALYSIS/releases/download/v1.0/car_price_model.pkl')
-label_encoders = joblib.load('https://github.com/aneshraj-data-96/CAR_PRODUCT_ANALYSIS/releases/download/v1.0/label_encoders.pkl')
-feature_names = joblib.load('https://github.com/aneshraj-data-96/CAR_PRODUCT_ANALYSIS/releases/download/v1.0/feature_names.pkl')
+model = joblib.load(files["model"])
+label_encoders = joblib.load(files["label_encoders"])
+feature_names = joblib.load(files["feature_names"])
 
 st.title("🚗 Car Price Predictor")
 
@@ -30,4 +44,3 @@ if st.button("Predict Price"):
     input_df = pd.DataFrame([user_input])[feature_names]
     prediction = model.predict(input_df)[0]
     st.success(f"💰 Estimated Price: ₹{prediction:,.2f}")
-
