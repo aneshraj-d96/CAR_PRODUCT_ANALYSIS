@@ -5,8 +5,9 @@ This project explores a dataset of 100,000 car listings to uncover insights into
 
 ---
 
-## GitHub Project Repository: 
-[view repo](https://github.com/aneshraj-d96/CAR_PRODUCT_ANALYSIS)
+## 🚗 **GitHub Project Repository:** 
+[Click to view CAR_PRODUCT_ANALYSIS](https://github.com/aneshraj-d96/CAR_PRODUCT_ANALYSIS)
+
 
 
 ---
