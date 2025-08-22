@@ -6,7 +6,7 @@ This project explores a dataset of 100,000 car listings to uncover insights into
 ---
 
 ## GitHub Project Repository: 
-[view repo](https://github.com/aneshraj/delivery-optimization-dashboard)
+[view repo](https://github.com/aneshraj-d96/CAR_PRODUCT_ANALYSIS)
 
 
 ---
