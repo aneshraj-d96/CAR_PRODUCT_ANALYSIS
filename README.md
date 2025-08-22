@@ -70,7 +70,7 @@ Dashboards are provided as images in the repository. They include:
   <img src="https://image2url.com/images/1755687080391-fb555241-253c-4f23-84e4-fed6175f39b7.png" alt="Dashboard Preview" width="600"/>
   
 **Streamlit app Dashboard**  
-  <img src="https://image2url.com/images/1755687080391-fb555241-253c-4f23-84e4-fed6175f39b7.png" alt="Dashboard Preview" width="600"/>
+  <img src="https://image2url.com/images/1755856540117-f72ce694-f0b0-430e-a451-a8f28698b9e6.png" alt="Dashboard Preview" width="600"/>
   
 ---
 
